@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#99f"
+    tools:context=".Main3Activity">
+    <ListView
+        android:id="@+id/list1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/vishu"
+        android:textSize="25sp"
+        android:textColor="#111"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+
+        android:visibility="gone"
+        android:text="BACK"/>
+    <Spinner
+        android:id="@+id/spin1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fcc">
+
+    </Spinner>
+
+
+</LinearLayout>
